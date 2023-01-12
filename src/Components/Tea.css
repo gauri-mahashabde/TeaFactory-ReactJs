@@ -1,0 +1,14 @@
+.box{
+    box-sizing: border-box;
+    border: 5px rgb(0, 0, 1) solid;
+    padding: 60px;
+    background: lightblue;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
