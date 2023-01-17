@@ -7,6 +7,8 @@ import Teapowder from "./TeaPowder/Teapowder";
 import Flavours from "./Flavours/Falvour";
 import Water from "./Water/Water";
 import Button from "./Button/Button";
+import Dropdown from "./Dropdown/Dropdown";
+
 
 function Tea() {
   return (
@@ -15,6 +17,7 @@ function Tea() {
         <Header />
         <div className="box">
           <Milk />
+         <Dropdown/>
         </div>
         <div className="box">
           <Teapowder />
