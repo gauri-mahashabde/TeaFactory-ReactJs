@@ -10,6 +10,7 @@ import Button from "./Button/Button";
 import Dropdown from "./Dropdown/Dropdown";
 
 
+
 function Tea() {
   return (
     <>
@@ -17,10 +18,12 @@ function Tea() {
         <Header />
         <div className="box">
           <Milk />
-         <Dropdown/>
+          
+        
         </div>
         <div className="box">
           <Teapowder />
+          <Dropdown types = {["blacktea","Greentea","Herbal",]}/>
         </div>
         <div className="box">
           <Flavours />
