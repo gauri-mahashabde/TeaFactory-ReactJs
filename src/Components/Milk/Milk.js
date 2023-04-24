@@ -37,7 +37,9 @@ export default function Milk() {
         <option value="option 7">
           <SoyaMilk />
         </option>
+        
       </select>
+
     </>
   );
 }
